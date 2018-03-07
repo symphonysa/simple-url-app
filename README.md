@@ -14,7 +14,7 @@ Sample can be run locally using NodeJS http-server (https://www.npmjs.com/packag
 http-server --cors --ssl --key ssl.key --cert ssl.cert
 ```
 Note that has to be run with CORS enabled for the "Access-Control-Allow-Origin" header and SSL.
-Can generate a simple cert/key pair using OpenSSL
+Can generate a simple self-signed cert/key pair for dev using OpenSSL
 ```
 openssl req -newkey rsa:4096 -nodes -keyout ssl.key -x509 -days 365 -out ssl.cert
 ```
