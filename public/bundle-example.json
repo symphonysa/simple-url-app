@@ -1,0 +1,14 @@
+{
+  "applications": [
+    {
+      "type": "sandbox",
+      "id": "hello",
+      "name": "Simple URL Sample",
+      "blurb": "Simple URL Sample",
+      "publisher": "Symphony",
+      "url": "https://localhost:8080/controller.html",
+      "icon": "https://localhost:8080/icon.png",
+      "domain": "localhost"
+    }
+  ]
+}
