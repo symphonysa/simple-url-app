@@ -4,9 +4,9 @@ Sample of a simple Symphony Extension API app that loads an external URL within 
 App has a simple Controller that after registering the app : 
 1. uses the 'applications-nav' service to display an item in the Symphony left nav
 2. uses the 'modules' service to open a module and load a URL
-Note that the URL must be HTTP and allowed to be embedded within an iFrame on the pods domain
+Note that the URL must be HTTPS and allowed to be embedded within an iFrame on the pods domain
 
-Building the sample and running locally assumes NodeJS is installed.
+Building the sample and running locally assumes NodeJS is installed and familiarity building Symphony Extension API Apps - https://extension-api.symphony.com
 
 # Running Locally
 Sample can be run locally using NodeJS http-server (https://www.npmjs.com/package/http-server)
